@@ -1,6 +1,8 @@
 # Titanium BottomPullView CommonJS Module
 
-An easy to use pure Titanium BottomPullView
+An easy to use pure Titanium BottomPullView (sure could be optimized...)
+
+Feel free to modify, improvements are always welcome!
 
 <img src="./demo.gif" width="293" height="634" alt="Example" />
 
@@ -79,7 +81,7 @@ bottomView.setData(tableRows,{animated:false});
 
 
 
-var pullViewControll = (new bottomPullViewModule()).createBottomPullView({
+var pullviewController = (new bottomPullViewModule()).createBottomPullView({
 	backgroundColor:'#acacac',
 	minPullHeight:200,
 	//contentView.height must be greater than maxPullHeight
@@ -92,14 +94,14 @@ var pullViewControll = (new bottomPullViewModule()).createBottomPullView({
 		y: -1
 	},
 	viewShadowRadius:6,
-	parentView:YOUR-PULLVIEW-CONTROLLER-parentView, // parentContainer the pullviewControll is a child of
-	contentView:bottomScrollView, // content for inside the pullviewControll
+	parentView:YOUR-PULLVIEW-CONTROLLER-parentView, // parentContainer the pullviewController is a child of
+	contentView:bottomView, // content for inside the pullviewController
 	contentIsScrollable:true, // if the content is a tableView, listView, or scrollView
 	adjustScrollableContentInsets:true, // if the contentInsets should be automaticly 	adjusted for the scrollView,tableView - only effective when using module 	"de.marcbender.tableviewextension"
-	bottomInset:extraBottomInset // extra bottomInset for the scrollView,tableView (depends 	on safeArea bottom) - only effective when using module 	"de.marcbender.tableviewextension"
+	bottomInset:0 // extra bottomInset (INTEGER) for the scrollView,tableView (depends 	on safeArea bottom) - only effective when using module 	"de.marcbender.tableviewextension"
 });
 
-WHATEVERVIEW_OR_WINDOW.add(pullViewControll);
+WHATEVERVIEW_OR_WINDOW.add(pullviewController);
 ```
 
 ## License
@@ -108,4 +110,4 @@ MIT
 
 ## Author
 
-Hans Knöchel
+Marc Bender
