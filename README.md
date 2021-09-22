@@ -86,7 +86,7 @@ var pullviewController = (new bottomPullViewModule()).createBottomPullView({
 	minPullHeight:200,
 	//contentView.height must be greater than maxPullHeight
 	maxPullHeight:500,
-	darkenBackground:false,
+	darkenBackground:false, // if true -> a darkend backgroundView will be displayed when bottomPullView is open / up
 	pullViewTopShadow:true,
 	viewShadowColor:'#EE000000',
 	viewShadowOffset : {
