@@ -92,7 +92,7 @@ var pullViewControll = (new bottomPullViewModule()).createBottomPullView({
 		y: -1
 	},
 	viewShadowRadius:6,
-	parentView:YOUR-PULLVIEW-CONTROLLER parent view, // parentContainer the pullviewControll is a child of
+	parentView:YOUR-PULLVIEW-CONTROLLER-parentView, // parentContainer the pullviewControll is a child of
 	contentView:bottomScrollView, // content for inside the pullviewControll
 	contentIsScrollable:true, // if the content is a tableView, listView, or scrollView
 	adjustScrollableContentInsets:true, // if the contentInsets should be automaticly 	adjusted for the scrollView,tableView - only effective when using module 	"de.marcbender.tableviewextension"
