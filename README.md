@@ -98,6 +98,8 @@ var pullViewControll = (new bottomPullViewModule()).createBottomPullView({
 	adjustScrollableContentInsets:true, // if the contentInsets should be automaticly 	adjusted for the scrollView,tableView - only effective when using module 	"de.marcbender.tableviewextension"
 	bottomInset:extraBottomInset // extra bottomInset for the scrollView,tableView (depends 	on safeArea bottom) - only effective when using module 	"de.marcbender.tableviewextension"
 });
+
+WHATEVERVIEW_OR_WINDOW.add(pullViewControll);
 ```
 
 ## License
