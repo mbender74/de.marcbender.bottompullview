@@ -1,0 +1,9 @@
+{
+    "description": "Bottom PullView",
+    "directories": {
+        "lib": "."
+    },
+    "main": "de.marcbender.bottompullview",
+    "name": "de.marcbender.bottompullview",
+    "version": "1.0.0"
+}

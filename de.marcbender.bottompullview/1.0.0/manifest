@@ -1,0 +1,12 @@
+version: 1.0.0
+description: Bottom PullView
+author: Marc Bender
+license: free
+copyright: Marc Bender 2021
+
+# these should not be edited
+name: de.marcbender.bottompullview
+moduleid: de.marcbender.bottompullview
+guid: 00000000-0000-0000-0000-00000AFC0002
+platform: commonjs
+minsdk: 9.3.2.GA
